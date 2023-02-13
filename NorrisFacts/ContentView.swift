@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct MyView: View {
     
     @Environment(\.colorScheme) var colorScheme
     @State var jokeList: [JokeModel] = []
+    var norrisImages = ["norris", "norris2", "norris3", "norris4"]
     
     init() {
         UIRefreshControl.appearance().tintColor = .orange
@@ -26,16 +28,15 @@ struct MyView: View {
                     
                     if let url = joke.iconUrl {
                         
-                        AsyncImage(url: url) { image in
-                            image
+                        if let imageString = norrisImages.randomElement() {
+                            
+                            WebImage(url: url)
                                 .resizable()
+                                .placeholder(Image(imageString))
                                 .aspectRatio(contentMode: .fit)
-                        } placeholder: {
-                            Image("norris")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(48)
+                                .clipped()
                         }
-                        .cornerRadius(48)
                     }
                     
                     Button(action: {
