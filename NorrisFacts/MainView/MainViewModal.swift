@@ -2,11 +2,12 @@
 //  ViewModel.swift
 //  APIPractice
 //
-//  Created by Devanshu Dev Chaudhary on 12/02/23.
+//  Created by devdchaudhary on 12/02/23.
 //
 
 import Foundation
 import SwiftUI
+import GoogleMobileAds
 
 extension MyView {
     
@@ -26,9 +27,7 @@ extension MyView {
     func fetchJokes() {
         
         let url = URL(string: "https://api.chucknorris.io/jokes/random")
-        
-        //        let sanitizedWords = ["fuck", "shit", "pussy", "dick", "ass", "cocks", "faggot"]
-        
+                
         if let url {
             APIManager.shared.fetchJokeData(url: url) { result in
                 switch result {

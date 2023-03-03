@@ -1,60 +1,70 @@
 {
   "images" : [
     {
+      "filename" : "icon-40.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "Colorful Planner Mobile App Promotion Instagram Post-2-20@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "icon-small@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "icon-small@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "Colorful Planner Mobile App Promotion Instagram Post-2-76.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "38x38"
     },
     {
+      "filename" : "icon@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "38x38"
     },
     {
+      "filename" : "icon-40@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "icon-40@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "icon-60@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "icon-60@3x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "3x",
@@ -79,18 +89,21 @@
       "size" : "68x68"
     },
     {
+      "filename" : "Colorful Planner Mobile App Promotion Instagram Post-2-76@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "Colorful Planner Mobile App Promotion Instagram Post-2-83.5@2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "Colorful Planner Mobile App Promotion Instagram Post-2-1024 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

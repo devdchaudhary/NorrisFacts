@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,21 +13,44 @@
 		B6190AC5299A62DC00C08D4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6190AC4299A62DC00C08D4F /* Preview Assets.xcassets */; };
 		B6190AD6299A636E00C08D4F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6190AD3299A636E00C08D4F /* Model.swift */; };
 		B6190AD7299A636E00C08D4F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6190AD4299A636E00C08D4F /* APIManager.swift */; };
-		B6190AD8299A636E00C08D4F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6190AD5299A636E00C08D4F /* ViewModel.swift */; };
+		B6190AD8299A636E00C08D4F /* MainViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6190AD5299A636E00C08D4F /* MainViewModal.swift */; };
 		B6190ADA299A638700C08D4F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6190AD9299A638700C08D4F /* Launch Screen.storyboard */; };
 		B6190ADC299A63A600C08D4F /* NorrisFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6190ADB299A63A600C08D4F /* NorrisFactsApp.swift */; };
+		B61CE77C29A54181005E6E8C /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CE77B29A54181005E6E8C /* BannerAdView.swift */; };
+		B61CE78429A57A55005E6E8C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61CE78329A57A55005E6E8C /* Extensions.swift */; };
+		B64F37D129A586FD00EFE60F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F37D029A586FD00EFE60F /* Constants.swift */; };
+		B6B2B63A29A8505600FF18C4 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2B63929A8505600FF18C4 /* SavedView.swift */; };
+		B6B2B63C29A852ED00FF18C4 /* ViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2B63B29A852ED00FF18C4 /* ViewModal.swift */; };
+		B6B2B63E29A854C700FF18C4 /* SavedViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2B63D29A854C700FF18C4 /* SavedViewModal.swift */; };
+		B6C2427E29A7F89F00FD1FC8 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2427D29A7F89F00FD1FC8 /* PersistanceManager.swift */; };
+		B6C2428029A7FF8500FD1FC8 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2427F29A7FF8500FD1FC8 /* TabView.swift */; };
+		B6E316A029A5113300A945FB /* BannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E3169F29A5113300A945FB /* BannerAdViewController.swift */; };
+		EBAEC2C7FA14806C6289FCB4 /* Pods_NorrisFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB294A238A8329E73C7DD20 /* Pods_NorrisFacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		195E168D40BC01D675F27F85 /* Pods-NorrisFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorrisFacts.release.xcconfig"; path = "Target Support Files/Pods-NorrisFacts/Pods-NorrisFacts.release.xcconfig"; sourceTree = "<group>"; };
+		67D4FD43F45CFE29C05A3504 /* Pods-NorrisFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorrisFacts.debug.xcconfig"; path = "Target Support Files/Pods-NorrisFacts/Pods-NorrisFacts.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB294A238A8329E73C7DD20 /* Pods_NorrisFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NorrisFacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6190ABA299A62DB00C08D4F /* NorrisFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorrisFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6190ABF299A62DB00C08D4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6190AC1299A62DC00C08D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6190AC4299A62DC00C08D4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6190AD3299A636E00C08D4F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B6190AD4299A636E00C08D4F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		B6190AD5299A636E00C08D4F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B6190AD5299A636E00C08D4F /* MainViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModal.swift; sourceTree = "<group>"; };
 		B6190AD9299A638700C08D4F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B6190ADB299A63A600C08D4F /* NorrisFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorrisFactsApp.swift; sourceTree = "<group>"; };
+		B61CE77B29A54181005E6E8C /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		B61CE77D29A541E4005E6E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B61CE78329A57A55005E6E8C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B64F37D029A586FD00EFE60F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6B2B63929A8505600FF18C4 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		B6B2B63B29A852ED00FF18C4 /* ViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModal.swift; sourceTree = "<group>"; };
+		B6B2B63D29A854C700FF18C4 /* SavedViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewModal.swift; sourceTree = "<group>"; };
+		B6C2427D29A7F89F00FD1FC8 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		B6C2427F29A7FF8500FD1FC8 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		B6E3169F29A5113300A945FB /* BannerAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +59,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60514BF299A833B0012F36C /* SDWebImageSwiftUI in Frameworks */,
+				EBAEC2C7FA14806C6289FCB4 /* Pods_NorrisFacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6036E99F2C15403B98A9CD6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB294A238A8329E73C7DD20 /* Pods_NorrisFacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E2A6FC44A34229428C6BC3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D4FD43F45CFE29C05A3504 /* Pods-NorrisFacts.debug.xcconfig */,
+				195E168D40BC01D675F27F85 /* Pods-NorrisFacts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B6190AB1299A62DB00C08D4F = {
 			isa = PBXGroup;
 			children = (
 				B6190ABC299A62DB00C08D4F /* NorrisFacts */,
 				B6190ABB299A62DB00C08D4F /* Products */,
+				6E2A6FC44A34229428C6BC3D /* Pods */,
+				6036E99F2C15403B98A9CD6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,11 +104,16 @@
 		B6190ABC299A62DB00C08D4F /* NorrisFacts */ = {
 			isa = PBXGroup;
 			children = (
+				B61CE77D29A541E4005E6E8C /* Info.plist */,
 				B6190ADB299A63A600C08D4F /* NorrisFactsApp.swift */,
 				B6190AD4299A636E00C08D4F /* APIManager.swift */,
-				B6190AD3299A636E00C08D4F /* Model.swift */,
-				B6190AD5299A636E00C08D4F /* ViewModel.swift */,
-				B6190ABF299A62DB00C08D4F /* ContentView.swift */,
+				B61CE78329A57A55005E6E8C /* Extensions.swift */,
+				B64F37D029A586FD00EFE60F /* Constants.swift */,
+				B6C2427D29A7F89F00FD1FC8 /* PersistanceManager.swift */,
+				B6B2B63729A84EB700FF18C4 /* TabView */,
+				B61CE77A29A5412E005E6E8C /* MainView */,
+				B6B2B63829A84FF800FF18C4 /* SavedView */,
+				B61CE77929A54127005E6E8C /* BannerAd */,
 				B6190AD9299A638700C08D4F /* Launch Screen.storyboard */,
 				B6190AC1299A62DC00C08D4F /* Assets.xcassets */,
 				B6190AC3299A62DC00C08D4F /* Preview Content */,
@@ -81,6 +129,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B61CE77929A54127005E6E8C /* BannerAd */ = {
+			isa = PBXGroup;
+			children = (
+				B6E3169F29A5113300A945FB /* BannerAdViewController.swift */,
+				B61CE77B29A54181005E6E8C /* BannerAdView.swift */,
+			);
+			path = BannerAd;
+			sourceTree = "<group>";
+		};
+		B61CE77A29A5412E005E6E8C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				B6190AD3299A636E00C08D4F /* Model.swift */,
+				B6190AD5299A636E00C08D4F /* MainViewModal.swift */,
+				B6190ABF299A62DB00C08D4F /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B6B2B63729A84EB700FF18C4 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2B63B29A852ED00FF18C4 /* ViewModal.swift */,
+				B6C2427F29A7FF8500FD1FC8 /* TabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		B6B2B63829A84FF800FF18C4 /* SavedView */ = {
+			isa = PBXGroup;
+			children = (
+				B6B2B63929A8505600FF18C4 /* SavedView.swift */,
+				B6B2B63D29A854C700FF18C4 /* SavedViewModal.swift */,
+			);
+			path = SavedView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6190AC8299A62DC00C08D4F /* Build configuration list for PBXNativeTarget "NorrisFacts" */;
 			buildPhases = (
+				4EF958486B14F6C0A3C60F1D /* [CP] Check Pods Manifest.lock */,
 				B6190AB6299A62DB00C08D4F /* Sources */,
 				B6190AB7299A62DB00C08D4F /* Frameworks */,
 				B6190AB8299A62DB00C08D4F /* Resources */,
+				72CE60093961EF65D05A4FFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,7 +207,7 @@
 				};
 			};
 			buildConfigurationList = B6190AB5299A62DB00C08D4F /* Build configuration list for PBXProject "NorrisFacts" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -153,16 +240,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EF958486B14F6C0A3C60F1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NorrisFacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CE60093961EF65D05A4FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorrisFacts/Pods-NorrisFacts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NorrisFacts/Pods-NorrisFacts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NorrisFacts/Pods-NorrisFacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6190AB6299A62DB00C08D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C2428029A7FF8500FD1FC8 /* TabView.swift in Sources */,
 				B6190AD7299A636E00C08D4F /* APIManager.swift in Sources */,
 				B6190AC0299A62DB00C08D4F /* ContentView.swift in Sources */,
-				B6190AD8299A636E00C08D4F /* ViewModel.swift in Sources */,
+				B6190AD8299A636E00C08D4F /* MainViewModal.swift in Sources */,
+				B61CE78429A57A55005E6E8C /* Extensions.swift in Sources */,
+				B61CE77C29A54181005E6E8C /* BannerAdView.swift in Sources */,
+				B6B2B63E29A854C700FF18C4 /* SavedViewModal.swift in Sources */,
+				B6C2427E29A7F89F00FD1FC8 /* PersistanceManager.swift in Sources */,
 				B6190AD6299A636E00C08D4F /* Model.swift in Sources */,
+				B6B2B63A29A8505600FF18C4 /* SavedView.swift in Sources */,
+				B6B2B63C29A852ED00FF18C4 /* ViewModal.swift in Sources */,
+				B6E316A029A5113300A945FB /* BannerAdViewController.swift in Sources */,
 				B6190ADC299A63A600C08D4F /* NorrisFactsApp.swift in Sources */,
+				B64F37D129A586FD00EFE60F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,28 +423,32 @@
 		};
 		B6190AC9299A62DC00C08D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D4FD43F45CFE29C05A3504 /* Pods-NorrisFacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NorrisFacts/Preview Content\"";
 				DEVELOPMENT_TEAM = AFU28XCKKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NorrisFacts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "\"Facts\"";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.norrisfacts.NorrisFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.norrisfacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,28 +458,32 @@
 		};
 		B6190ACA299A62DC00C08D4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195E168D40BC01D675F27F85 /* Pods-NorrisFacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NorrisFacts/Preview Content\"";
 				DEVELOPMENT_TEAM = AFU28XCKKE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NorrisFacts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "\"Facts\"";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.norrisfacts.NorrisFacts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.norrisfacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
